@@ -8,7 +8,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 ![Status](https://img.shields.io/badge/Status-Em%20construção-brightgreen)
-![Tópicos](https://img.shields.io/badge/Tópicos-18-blue)
+![Tópicos](https://img.shields.io/badge/Tópicos-31-blue)
 ![Idioma](https://img.shields.io/badge/Idioma-Português%20BR-green)
 
 </div>
@@ -110,6 +110,37 @@ Os exemplos práticos usam principalmente **Java/Spring Boot**, mas **os conceit
 
 ---
 
+### 🌐 Parte 6 — Tópicos Avançados de Produção
+
+> 🎯 *Tópicos que aparecem quando seus sistemas crescem em escala e complexidade*
+
+| 📖 | 📑 Tópico | 🔑 Conceitos-chave |
+|:-:|---|---|
+| 19 | [📨 **Mensageria**](./19-mensageria.md) | RabbitMQ • Kafka • Filas • Outbox • Saga |
+| 20 | [⚡ **Caching**](./20-caching.md) | Redis • TTL • Padrões • Cache stampede |
+| 21 | [🔌 **APIs Avançadas**](./21-apis-avancadas.md) | REST maduro • GraphQL • gRPC • OpenAPI |
+| 22 | [🛡️ **Segurança**](./22-seguranca.md) | OWASP Top 10 • XSS • CSRF • IDOR • Secrets |
+| 23 | [📈 **Performance**](./23-performance.md) | Profiling • Big O • Latência • Load testing |
+| 24 | [☁️ **Cloud**](./24-cloud.md) | AWS • GCP • Azure • IaaS • PaaS • Serverless |
+| 25 | [🌍 **Sistemas Distribuídos**](./25-sistemas-distribuidos.md) | CAP • Consenso • Replicação • Sharding |
+
+---
+
+### 🤖 Parte 7 — Inteligência Artificial pra Devs
+
+> 🎯 *IA prática pra dev: integrar LLMs em apps, não virar cientista de dados*
+
+| 📖 | 📑 Tópico | 🔑 Conceitos-chave |
+|:-:|---|---|
+| 26 | [🤖 **Fundamentos de IA/ML**](./26-fundamentos-ia.md) | ML • Deep Learning • Treinamento • Métricas |
+| 27 | [🧠 **LLMs e como funcionam**](./27-llms.md) | Tokens • Embeddings • Contexto • Transformers |
+| 28 | [🗂️ **RAG**](./28-rag.md) | Retrieval • Embeddings • Vector DB • Pipelines |
+| 29 | [✍️ **Engenharia de Prompt**](./29-engenharia-prompt.md) | Few-shot • CoT • System prompts • Padrões |
+| 30 | [🛡️ **IA com Responsabilidade**](./30-ia-responsavel.md) | Alucinação • Vieses • Custos • Privacidade |
+| 31 | [🔌 **Integração com APIs de LLMs**](./31-integracao-llms.md) | OpenAI • Anthropic • Function calling • MCP |
+
+---
+
 ## 🗺️ Mapa Mental: Como Tudo se Conecta
 
 ```
@@ -159,13 +190,34 @@ Os exemplos práticos usam principalmente **Java/Spring Boot**, mas **os conceit
        │  🧪 17 - Testes                   │
        │  🔍 18 - Observabilidade          │
        └───────────────────────────────────┘
+
+       Quando o sistema cresce em escala:
+       ┌───────────────────────────────────────────┐
+       │  🌐 TÓPICOS AVANÇADOS DE PRODUÇÃO         │
+       │                                           │
+       │  📨 19 - Mensageria  ⚡ 20 - Caching      │
+       │  🔌 21 - APIs        🛡️  22 - Segurança    │
+       │  📈 23 - Performance ☁️  24 - Cloud        │
+       │  🌍 25 - Sistemas Distribuídos            │
+       └───────────────────────────────────────────┘
+
+       E o futuro chegou: integrando IA nos apps:
+       ┌───────────────────────────────────────────┐
+       │  🤖 INTELIGÊNCIA ARTIFICIAL PRA DEVS      │
+       │                                           │
+       │  🤖 26 - Fundamentos  🧠 27 - LLMs        │
+       │  🗂️  28 - RAG          ✍️  29 - Prompt     │
+       │  🛡️  30 - Responsável  🔌 31 - APIs LLMs  │
+       └───────────────────────────────────────────┘
 ```
 
 > 💡 **Como ler**:
 > - 📐 **Coluna central** = stack vertical da máquina (de baixo pra cima)
 > - 🔄 **Lados** = conceitos transversais que afetam várias camadas
 > - 🎯 **Topo** = engenharia (como você desenha o código)
-> - 🏁 **Base** = operação (como mantém vivo em produção)
+> - 🏁 **Meio-base** = operação (como mantém vivo em produção)
+> - 🌐 **Avançados** = entram em jogo quando o sistema cresce
+> - 🤖 **IA** = camada nova que está virando essencial pra devs modernos
 
 ---
 
@@ -179,6 +231,12 @@ Vá direto pros tópicos da **Parte 4** (12 a 15) — são os que mais aparecem 
 
 ### 🚀 Quer aprender DevOps?
 Pula pra **Parte 5** (tópicos 16 a 18). Mas leia **8 (Banco)** e **7 (Redes)** antes se nunca viu.
+
+### 🌐 Já trabalha com microserviços / sistemas grandes?
+**Parte 6** (tópicos 19 a 25) é onde mora a complexidade real de produção em escala.
+
+### 🤖 Quer integrar IA em aplicações?
+**Parte 7** (tópicos 26 a 31). Você não precisa virar cientista de dados — esses tópicos são pra **dev** que quer usar IA bem.
 
 ### 🎯 Veio pra um tópico específico?
 Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qualquer ordem.
@@ -215,14 +273,31 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - [x] 🧪 Testes
 - [x] 🔍 Observabilidade
 
+### 🌐 Parte 6 — Tópicos Avançados de Produção
+- [x] 📨 Mensageria
+- [x] ⚡ Caching
+- [x] 🔌 APIs Avançadas
+- [x] 🛡️ Segurança
+- [x] 📈 Performance
+- [x] ☁️ Cloud
+- [x] 🌍 Sistemas Distribuídos
+
+### 🤖 Parte 7 — Inteligência Artificial pra Devs
+- [x] 🤖 Fundamentos de IA/ML
+- [x] 🧠 LLMs
+- [x] 🗂️ RAG
+- [x] ✍️ Engenharia de Prompt
+- [x] 🛡️ IA com Responsabilidade
+- [x] 🔌 Integração com APIs de LLMs
+
 ### 🌱 Próximos tópicos planejados
-- [ ] 📨 Mensageria (RabbitMQ, Kafka, eventos)
-- [ ] ⚡ Caching (Redis, estratégias, TTL)
-- [ ] 🔌 APIs avançadas (REST maduro, GraphQL, gRPC)
-- [ ] 🛡️ Segurança de aplicação (OWASP Top 10)
-- [ ] 📈 Performance e profiling
-- [ ] ☁️ Cloud (AWS/GCP fundamentos)
-- [ ] 🌍 Sistemas distribuídos (CAP, consenso)
+- [ ] 🐳 Kubernetes profundo (manifests, operators, helm)
+- [ ] 🧪 MLOps (deploy de modelos, monitoramento, drift)
+- [ ] 🤝 Mobile e PWA
+- [ ] ♿ Acessibilidade web
+- [ ] 🌍 Internacionalização (i18n, l10n)
+- [ ] 📜 LGPD / GDPR pra devs
+- [ ] 🧰 Soft skills pra devs (comunicação, code review, mentoria)
 
 ---
 
@@ -240,13 +315,26 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - *Clean Architecture* — Robert C. Martin
 - *The Pragmatic Programmer* — Hunt & Thomas
 - *Design Patterns: Elements of Reusable OO Software* — Gang of Four
+- *Refactoring* — Martin Fowler
 
 #### 🏛️ Domain-Driven Design
 - *Domain-Driven Design* — Eric Evans (📕 livro azul)
 - *Implementing Domain-Driven Design* — Vaughn Vernon (📗 livro vermelho)
 
-#### 🚀 Operação
+#### 🚀 Operação e Sistemas Distribuídos
 - *Site Reliability Engineering* — gratuito em [sre.google/books](https://sre.google/books/)
+- *Distributed Systems* — Maarten van Steen
+- *Building Microservices* — Sam Newman
+
+#### 🛡️ Segurança
+- *The Web Application Hacker's Handbook*
+- *Cryptography Engineering* — Schneier, Ferguson, Kohno
+
+#### 🤖 IA e Machine Learning
+- *Hands-On Machine Learning* — Aurélien Géron
+- *Deep Learning* — Goodfellow, Bengio, Courville (gratuito em [deeplearningbook.org](https://www.deeplearningbook.org/))
+- *Designing Machine Learning Systems* — Chip Huyen
+- *AI Engineering* — Chip Huyen (focado em LLMs e produção)
 
 ### 📖 Documentação Oficial
 - 🐧 [ArchWiki](https://wiki.archlinux.org/) — referência absoluta de Linux
@@ -254,12 +342,18 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - 🐘 [PostgreSQL Docs](https://www.postgresql.org/docs/)
 - 🌐 [MDN Web Docs](https://developer.mozilla.org/)
 - 📋 [12-Factor App](https://12factor.net/)
+- 🔴 [Redis Docs](https://redis.io/docs/)
+- 🌊 [Kafka Docs](https://kafka.apache.org/documentation/)
+- 🛡️ [OWASP](https://owasp.org/)
 
 ### 🎥 Canais no YouTube
 - 🔧 [Ben Eater](https://www.youtube.com/@BenEater) — CPU do zero, redes, eletrônica
 - 🎓 [Computerphile](https://www.youtube.com/@Computerphile) — conceitos da computação
 - 🔥 [Fireship](https://www.youtube.com/@Fireship) — explicações rápidas
 - 🏗️ [ByteByteGo](https://www.youtube.com/@ByteByteGo) — system design
+- 🤖 [3Blue1Brown](https://www.youtube.com/@3blue1brown) — matemática e neural networks (visualizações lindas)
+- 🧠 [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) — LLMs do zero, fundamentos de IA
+- 📊 [StatQuest](https://www.youtube.com/@statquest) — estatística e ML didáticos
 
 ### 🛠️ Ferramentas Úteis
 - 🔬 [godbolt.org](https://godbolt.org) — explorar assembly
@@ -268,6 +362,9 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - 📐 [draw.io](https://app.diagrams.net) — diagramas profissionais
 - 🗃️ [DB Diagram](https://dbdiagram.io) — modelar bancos
 - 🌐 [HTTPie](https://httpie.io) — alternativa ao curl
+- 📊 [k6.io](https://k6.io) — load testing
+- 🤗 [Hugging Face](https://huggingface.co) — modelos de IA open source
+- 🦜 [LangChain](https://www.langchain.com) — orquestração de LLMs
 
 ### 🎯 Aprofundamento por Tópico
 - 🗄️ **Banco**: [Use The Index, Luke!](https://use-the-index-luke.com/)
@@ -275,7 +372,11 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - 📊 **Algoritmos**: [VisuAlgo](https://visualgo.net/)
 - 🏗️ **System Design**: [System Design Primer](https://github.com/donnemartin/system-design-primer)
 - 🌐 **Frontend**: [web.dev](https://web.dev/)
-- 🛡️ **Segurança**: [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- 🛡️ **Segurança**: [OWASP Top 10](https://owasp.org/www-project-top-ten/) • [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- ☁️ **Cloud**: [AWS Skill Builder](https://skillbuilder.aws/) • [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
+- 🌍 **Sistemas Distribuídos**: [The Morning Paper](https://blog.acolyer.org/) (papers explicados)
+- 🤖 **IA pra Devs**: [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) • [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
+- 📝 **Prompt Engineering**: [Anthropic Prompt Library](https://docs.claude.com/en/prompt-library) • [Learn Prompting](https://learnprompting.org/)
 
 ---
 
