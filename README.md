@@ -8,7 +8,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 ![Status](https://img.shields.io/badge/Status-Em%20construção-brightgreen)
-![Tópicos](https://img.shields.io/badge/Tópicos-41-blue)
+![Tópicos](https://img.shields.io/badge/Tópicos-46-blue)
 ![Idioma](https://img.shields.io/badge/Idioma-Português%20BR-green)
 
 </div>
@@ -178,6 +178,20 @@ Os exemplos práticos usam principalmente **Java/Spring Boot**, mas **os conceit
 
 ---
 
+### 📊 Parte 11 — Engenharia de Dados
+
+> 🎯 *Como dados em escala alimentam BI, ML e decisões de negócio*
+
+| 📖 | 📑 Tópico | 🔑 Conceitos-chave |
+|:-:|---|---|
+| 42 | [🌊 **Modelagem Dimensional e DW**](./42-data-warehouse.md) | OLTP vs OLAP • Star Schema • SCD • Columnar |
+| 43 | [🏞️ **Data Lakes e Lakehouses**](./43-data-lakes.md) | Parquet • Delta • Iceberg • Bronze/Silver/Gold |
+| 44 | [🔄 **ETL/ELT e Pipelines**](./44-etl-pipelines.md) | Airflow • dbt • CDC • Idempotência • dbt |
+| 45 | [🌀 **Streaming de Dados**](./45-streaming-dados.md) | Kafka • Flink • Event time • Watermarks |
+| 46 | [🗃️ **Bancos NoSQL Específicos**](./46-nosql-especifico.md) | MongoDB • Cassandra • DynamoDB • Neo4j • Vector DBs |
+
+---
+
 ## 🗺️ Mapa Mental: Como Tudo se Conecta
 
 ```
@@ -271,6 +285,17 @@ Os exemplos práticos usam principalmente **Java/Spring Boot**, mas **os conceit
        │  🏛️  40 - POO: 4 Pilares                  │
        │  ☕ 41 - Java Completo                     │
        └───────────────────────────────────────────┘
+
+       Dados em escala — onde IA, BI e analytics moram:
+       ┌───────────────────────────────────────────┐
+       │  📊 ENGENHARIA DE DADOS                   │
+       │                                           │
+       │  🌊 42 - Data Warehouse                   │
+       │  🏞️  43 - Data Lakes & Lakehouse          │
+       │  🔄 44 - ETL/ELT e Pipelines              │
+       │  🌀 45 - Streaming de Dados               │
+       │  🗃️  46 - NoSQL Específicos               │
+       └───────────────────────────────────────────┘
 ```
 
 > 💡 **Como ler**:
@@ -305,6 +330,9 @@ Pula pra **Parte 5** (tópicos 16 a 18). Mas leia **8 (Banco)** e **7 (Redes)** 
 
 ### ☕ Vai aprender Java do zero ou revisar fundamentos?
 **Parte 10** (tópicos 39 a 41). Lógica → Paradigmas → POO → Java específico. Perfeito pra quem está começando ou quer organizar o que já sabe.
+
+### 📊 Quer entrar em engenharia de dados / analytics?
+**Parte 11** (tópicos 42 a 46). Dos fundamentos (DW e modelagem) até streaming e NoSQL. Stack moderna pra trabalhar com dados em escala.
 
 ### 🎯 Veio pra um tópico específico?
 Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qualquer ordem.
@@ -374,14 +402,21 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - [x] 🏛️ POO: Os 4 Pilares
 - [x] ☕ Java: Da Linguagem ao Ecossistema
 
+### 📊 Parte 11 — Engenharia de Dados
+- [x] 🌊 Modelagem Dimensional e Data Warehouses
+- [x] 🏞️ Data Lakes e Lakehouses
+- [x] 🔄 ETL/ELT e Pipelines de Dados
+- [x] 🌀 Streaming de Dados
+- [x] 🗃️ Bancos NoSQL Específicos
+
 ### 🌱 Possíveis tópicos futuros
 - [ ] 🦫 Go (linguagem completa)
 - [ ] 🐍 Python (linguagem completa)
 - [ ] 🐦 Kotlin (linguagem completa)
 - [ ] 🟢 Node.js fundamentos
 - [ ] ⚛️ React profundo
-- [ ] 🗃️ Bancos NoSQL específicos (MongoDB, Cassandra)
-- [ ] 📊 Engenharia de dados (ETL, data warehouses, lakes)
+- [ ] 🎨 Frontend moderno (Vite, Vue, build tools)
+- [ ] 📱 Backend pra mobile (notifications, sync)
 
 ---
 
@@ -425,6 +460,13 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - *Java: The Complete Reference* — Herbert Schildt
 - *Modern Java in Action* — Raoul-Gabriel Urma (Java 8+ funcional)
 - *Java Concurrency in Practice* — Brian Goetz
+
+#### 📊 Engenharia de Dados
+- *Designing Data-Intensive Applications* — Martin Kleppmann (essencial!)
+- *The Data Warehouse Toolkit* — Ralph Kimball
+- *Fundamentals of Data Engineering* — Joe Reis & Matt Housley
+- *Streaming Systems* — Tyler Akidau
+- *DynamoDB Book* — Alex DeBrie
 
 ### 📖 Documentação Oficial
 - 🐧 [ArchWiki](https://wiki.archlinux.org/) — referência absoluta de Linux
@@ -470,6 +512,9 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - 🤖 **IA pra Devs**: [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) • [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
 - 📝 **Prompt Engineering**: [Anthropic Prompt Library](https://docs.claude.com/en/prompt-library) • [Learn Prompting](https://learnprompting.org/)
 - ☕ **Java**: [Baeldung](https://www.baeldung.com/) • [Spring Documentation](https://spring.io/projects/spring-boot) • [DEV.JAVA](https://dev.java/)
+- 📊 **Engenharia de Dados**: [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering) • [dbt Learn](https://courses.getdbt.com/) • [Confluent Developer](https://developer.confluent.io/)
+- 🌊 **Streaming**: [Kafka Tutorials](https://developer.confluent.io/tutorials/) • [Flink Docs](https://flink.apache.org/docs/)
+- 🗃️ **NoSQL**: [Use The Index, Luke!](https://use-the-index-luke.com/) • [DynamoDB Guide](https://www.dynamodbguide.com/)
 
 ---
 
