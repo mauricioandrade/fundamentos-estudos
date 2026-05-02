@@ -8,7 +8,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 ![Status](https://img.shields.io/badge/Status-Em%20construção-brightgreen)
-![Tópicos](https://img.shields.io/badge/Tópicos-31-blue)
+![Tópicos](https://img.shields.io/badge/Tópicos-41-blue)
 ![Idioma](https://img.shields.io/badge/Idioma-Português%20BR-green)
 
 </div>
@@ -141,6 +141,43 @@ Os exemplos práticos usam principalmente **Java/Spring Boot**, mas **os conceit
 
 ---
 
+### 🛠️ Parte 8 — Especializações Avançadas
+
+> 🎯 *Tecnologias específicas que você pode ou não usar dependendo do projeto*
+
+| 📖 | 📑 Tópico | 🔑 Conceitos-chave |
+|:-:|---|---|
+| 32 | [🐳 **Kubernetes Profundo**](./32-kubernetes.md) | Pods • Deployments • Helm • Operators |
+| 33 | [🧪 **MLOps**](./33-mlops.md) | Versionamento • Drift • CT • Feature Store |
+| 34 | [📱 **Mobile e PWA**](./34-mobile-pwa.md) | React Native • Flutter • PWA • Offline-first |
+
+---
+
+### 🌎 Parte 9 — Carreira e Boas Práticas
+
+> 🎯 *Tópicos que valem pra qualquer dev, independente da stack*
+
+| 📖 | 📑 Tópico | 🔑 Conceitos-chave |
+|:-:|---|---|
+| 35 | [♿ **Acessibilidade Web**](./35-acessibilidade.md) | WCAG • ARIA • Leitores de tela • Contraste |
+| 36 | [🌍 **Internacionalização (i18n)**](./36-i18n.md) | i18n vs l10n • ICU • Intl API • RTL |
+| 37 | [📜 **LGPD e GDPR**](./37-lgpd-gdpr.md) | Bases legais • Direitos do titular • Anonimização |
+| 38 | [🧰 **Soft Skills pra Devs**](./38-soft-skills.md) | Comunicação • Code review • Mentoria • Burnout |
+
+---
+
+### ☕ Parte 10 — Lógica e Java
+
+> 🎯 *Fundamentos de programação e mergulho em Java*
+
+| 📖 | 📑 Tópico | 🔑 Conceitos-chave |
+|:-:|---|---|
+| 39 | [🧮 **Lógica de Programação e Paradigmas**](./39-logica-paradigmas.md) | Variáveis • Loops • Procedural • Funcional • OO |
+| 40 | [🏛️ **POO: Os 4 Pilares**](./40-poo-pilares.md) | Abstração • Encapsulamento • Herança • Polimorfismo |
+| 41 | [☕ **Java: Da Linguagem ao Ecossistema**](./41-java-completo.md) | JVM • Streams • Records • Virtual Threads • Maven |
+
+---
+
 ## 🗺️ Mapa Mental: Como Tudo se Conecta
 
 ```
@@ -209,6 +246,31 @@ Os exemplos práticos usam principalmente **Java/Spring Boot**, mas **os conceit
        │  🗂️  28 - RAG          ✍️  29 - Prompt     │
        │  🛡️  30 - Responsável  🔌 31 - APIs LLMs  │
        └───────────────────────────────────────────┘
+
+       Especializações em tecnologias específicas:
+       ┌───────────────────────────────────────────┐
+       │  🛠️  ESPECIALIZAÇÕES AVANÇADAS             │
+       │                                           │
+       │  🐳 32 - Kubernetes  🧪 33 - MLOps        │
+       │  📱 34 - Mobile e PWA                     │
+       └───────────────────────────────────────────┘
+
+       Boas práticas que valem pra qualquer dev:
+       ┌───────────────────────────────────────────┐
+       │  🌎 CARREIRA E BOAS PRÁTICAS              │
+       │                                           │
+       │  ♿ 35 - Acessibilidade  🌍 36 - i18n      │
+       │  📜 37 - LGPD/GDPR     🧰 38 - Soft Skills │
+       └───────────────────────────────────────────┘
+
+       Fundamentos de programação e Java:
+       ┌───────────────────────────────────────────┐
+       │  ☕ LÓGICA E JAVA                          │
+       │                                           │
+       │  🧮 39 - Lógica e Paradigmas              │
+       │  🏛️  40 - POO: 4 Pilares                  │
+       │  ☕ 41 - Java Completo                     │
+       └───────────────────────────────────────────┘
 ```
 
 > 💡 **Como ler**:
@@ -218,6 +280,9 @@ Os exemplos práticos usam principalmente **Java/Spring Boot**, mas **os conceit
 > - 🏁 **Meio-base** = operação (como mantém vivo em produção)
 > - 🌐 **Avançados** = entram em jogo quando o sistema cresce
 > - 🤖 **IA** = camada nova que está virando essencial pra devs modernos
+> - 🛠️ **Especializações** = tecnologias específicas (use conforme necessidade)
+> - 🌎 **Carreira** = boas práticas universais
+> - ☕ **Lógica e Java** = fundamentos da programação + linguagem específica
 
 ---
 
@@ -237,6 +302,9 @@ Pula pra **Parte 5** (tópicos 16 a 18). Mas leia **8 (Banco)** e **7 (Redes)** 
 
 ### 🤖 Quer integrar IA em aplicações?
 **Parte 7** (tópicos 26 a 31). Você não precisa virar cientista de dados — esses tópicos são pra **dev** que quer usar IA bem.
+
+### ☕ Vai aprender Java do zero ou revisar fundamentos?
+**Parte 10** (tópicos 39 a 41). Lógica → Paradigmas → POO → Java específico. Perfeito pra quem está começando ou quer organizar o que já sabe.
 
 ### 🎯 Veio pra um tópico específico?
 Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qualquer ordem.
@@ -290,14 +358,30 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - [x] 🛡️ IA com Responsabilidade
 - [x] 🔌 Integração com APIs de LLMs
 
-### 🌱 Próximos tópicos planejados
-- [ ] 🐳 Kubernetes profundo (manifests, operators, helm)
-- [ ] 🧪 MLOps (deploy de modelos, monitoramento, drift)
-- [ ] 🤝 Mobile e PWA
-- [ ] ♿ Acessibilidade web
-- [ ] 🌍 Internacionalização (i18n, l10n)
-- [ ] 📜 LGPD / GDPR pra devs
-- [ ] 🧰 Soft skills pra devs (comunicação, code review, mentoria)
+### 🛠️ Parte 8 — Especializações Avançadas
+- [x] 🐳 Kubernetes Profundo
+- [x] 🧪 MLOps
+- [x] 📱 Mobile e PWA
+
+### 🌎 Parte 9 — Carreira e Boas Práticas
+- [x] ♿ Acessibilidade Web
+- [x] 🌍 Internacionalização (i18n)
+- [x] 📜 LGPD e GDPR
+- [x] 🧰 Soft Skills pra Devs
+
+### ☕ Parte 10 — Lógica e Java
+- [x] 🧮 Lógica de Programação e Paradigmas
+- [x] 🏛️ POO: Os 4 Pilares
+- [x] ☕ Java: Da Linguagem ao Ecossistema
+
+### 🌱 Possíveis tópicos futuros
+- [ ] 🦫 Go (linguagem completa)
+- [ ] 🐍 Python (linguagem completa)
+- [ ] 🐦 Kotlin (linguagem completa)
+- [ ] 🟢 Node.js fundamentos
+- [ ] ⚛️ React profundo
+- [ ] 🗃️ Bancos NoSQL específicos (MongoDB, Cassandra)
+- [ ] 📊 Engenharia de dados (ETL, data warehouses, lakes)
 
 ---
 
@@ -336,6 +420,12 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - *Designing Machine Learning Systems* — Chip Huyen
 - *AI Engineering* — Chip Huyen (focado em LLMs e produção)
 
+#### ☕ Java
+- *Effective Java* — Joshua Bloch (📕 livro essencial)
+- *Java: The Complete Reference* — Herbert Schildt
+- *Modern Java in Action* — Raoul-Gabriel Urma (Java 8+ funcional)
+- *Java Concurrency in Practice* — Brian Goetz
+
 ### 📖 Documentação Oficial
 - 🐧 [ArchWiki](https://wiki.archlinux.org/) — referência absoluta de Linux
 - ☕ [Spring Boot Docs](https://docs.spring.io/spring-boot/)
@@ -354,6 +444,8 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - 🤖 [3Blue1Brown](https://www.youtube.com/@3blue1brown) — matemática e neural networks (visualizações lindas)
 - 🧠 [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) — LLMs do zero, fundamentos de IA
 - 📊 [StatQuest](https://www.youtube.com/@statquest) — estatística e ML didáticos
+- ☕ [Java Brains](https://www.youtube.com/@Java.Brains) — Java e Spring profundo
+- ☕ [Marco Codes](https://www.youtube.com/@MarcoCodes) — Java moderno
 
 ### 🛠️ Ferramentas Úteis
 - 🔬 [godbolt.org](https://godbolt.org) — explorar assembly
@@ -377,6 +469,7 @@ Use o sumário acima. Cada arquivo é autossuficiente — você pode ler em qual
 - 🌍 **Sistemas Distribuídos**: [The Morning Paper](https://blog.acolyer.org/) (papers explicados)
 - 🤖 **IA pra Devs**: [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) • [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
 - 📝 **Prompt Engineering**: [Anthropic Prompt Library](https://docs.claude.com/en/prompt-library) • [Learn Prompting](https://learnprompting.org/)
+- ☕ **Java**: [Baeldung](https://www.baeldung.com/) • [Spring Documentation](https://spring.io/projects/spring-boot) • [DEV.JAVA](https://dev.java/)
 
 ---
 
